@@ -2,7 +2,7 @@ const images = require("images");
 const fs = require("fs");
 
 function compress(dir) {
-  fs.readdir(dir, function (err, files) {
+  fs.readdir(dir, (err, files) => {
     if (err) {
       console.log(`error:\n${err}`);
       return;
