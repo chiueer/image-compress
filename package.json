@@ -1,0 +1,13 @@
+{
+  "name": "image-compress",
+  "version": "1.0.0",
+  "description": "Image compression tool.",
+  "scripts": {
+    "start": "node src/compress.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "images": "^3.2.3"
+  }
+}
